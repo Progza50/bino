@@ -1,0 +1,22 @@
+.logo {
+	@include flex;
+	justify-content: space-between;
+	align-items: center;
+	column-gap: 15.04px;
+	height: 40px;
+	width: 140.39px;
+}
+.logo__picture {
+	
+}
+.logo__picture img {
+	height: 40px;
+	width: 40px;
+}
+.logo__text {
+	
+}
+.logo__text img {
+	height: 22px;
+	width: 85.35px;
+}

@@ -1,0 +1,73 @@
+.card__icon {
+	height: 70px;
+	width: 70px;
+}
+.card__whatwedo {
+	height: 380px;
+	width: 370px;
+}
+.card__whatwedo-overhead {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.2em;
+	color: $signal-black;
+	text-transform: uppercase;
+}
+.card__whatwedo-title {
+	margin: 8px 0px 0px;
+}
+.card__whatwedo-text {
+	margin: 23px 0px 0px;
+}
+.card__whatwedo-button {
+	margin: 39px 0px 0px;
+}
+.card__services {
+	@include flex;
+	justify-content: space-between;
+	align-items: start;
+	column-gap: 21px;
+	height: 167px;
+	width: 269px;
+}
+.card__services-icon {
+	
+}
+.card__services-content {
+	height: 100%;
+	width: 100%;
+}
+.card__services-title {
+	
+}
+.card__services-text {
+	font-size: 14px;
+	color: $signal-black;
+	margin: 3px 0px 0px;
+}
+.card__services-button {
+	margin: 25px 0px 0px;
+}
+.card__workprocess {
+	@include flex;
+	justify-content: space-between;
+	align-items: start;
+	column-gap: 30px;
+	height: 173px;
+	width: 528px;
+}
+.card__workprocess-icon {
+	
+}
+.card__workprocess-content {
+	height: 100%;
+	width: 100%;
+}
+.card__workprocess-title {
+
+}
+.card__workprocess-text {
+	color: $signal-black;
+	margin: 13px 0px 0px;
+}

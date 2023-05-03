@@ -1,0 +1,49 @@
+.button {
+	background-color: $black;
+	height: 40px;
+	font-family: "Syne", sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: $white;
+	text-transform: uppercase;
+	border-radius: 5px;
+	padding: 10px 19px 11px 18px;
+	cursor: pointer;
+}
+.button_arrow {
+	@include flex;
+	justify-content: center;
+	align-items: center;
+	column-gap: 15px;
+}
+.button_arrow_black {
+	height: 50px;
+	line-height: 140%;
+	padding: 0px;
+}
+.button_arrow_black:hover {
+	background-color: $dull-gray;
+	color: $black;
+}
+.button_arrow_white {
+	background: $champagne;
+	height: 30px;
+	border-radius: 3px;
+	color: $black;
+	font-size: 12px;
+	padding: 14px 21px 14px 0px;
+}
+.button_arrow_white:hover {
+	background-color: $dull-gray;
+}
+.button_arrow_readmore {
+	column-gap: 6px;
+	height: 18px;
+	width: 107.17px;
+	background: $champagne;
+	color: $black;
+	font-size: 13px;
+	line-height: 140%;
+	padding: 0px;
+}
